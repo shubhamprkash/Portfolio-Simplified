@@ -89,12 +89,13 @@ a{
     height: 100vh;
     padding: 50px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    
     /* align-items: center; */
 }
 .p-heading{
-    
     text-align: center;
+    width: 100%;
  }
 
  .p-heading hr{
@@ -102,5 +103,32 @@ a{
     margin: 10px auto;
     border: solid aqua 3px ;
     border-radius: 25px;
+ }
+
+ .container{
+    margin: 10% ;
+    border: solid 2px red;
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .pro-block{
+    min-width:400px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+ }
+ .pro-block-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
     
+ }
+ .block-link{
+    padding: 10px;
+    margin:5px 10px;
+    border: #00ffea solid 1px;
+    border-radius: 25px;
  }
